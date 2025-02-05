@@ -420,4 +420,11 @@ As next steps going forward, I sugges that oncoming set of campaigns, the potent
 4. Explore offering better interest rates, when consumer confidence, consumer price index is high so the clients can save and get better returns.
 
 
+#### Reference & Links
+1. UC Irvine Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/bank+marketing)
+2. Towards Data Science https://towardsdatascience.com/
+3. CRISP-DM-BANK.pdf
+4. Data Visualization Catalog https://datavizcatalogue.com/methods/population_pyramid.html
 
+
+[Link to the Jupyter Notebook](https://github.com/Shashidhar-Sathya/campaign/blob/main/bank_of_portugal_direct_mktg.ipynb/)
