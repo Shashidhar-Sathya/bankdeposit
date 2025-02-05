@@ -1,7 +1,7 @@
 # Comparing Classifiers
 
 
-[Link to the Jupyter Notebook](https://github.com/Shashidhar-Sathya/campaign/blob/main/bank_of_portugal_direct_mktg.ipynb/)
+[Link to the Jupyter Notebook](https://github.com/Shashidhar-Sathya/bankdeposit/blob/master/bank_of_portugal_direct_mktg.ipynb/)
 
 
 ## Introduction
