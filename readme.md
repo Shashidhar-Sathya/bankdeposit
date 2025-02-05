@@ -345,8 +345,8 @@ Imbalance Handling : **SMOTE with "sampling_strategy"='auto', "k_neighbors"=7**
 |LogisticRegression:| No marked improvement when SMOTE and hyperparameter fine tuning is carried out.  There was show high scores in Train Score, Test Score and Accuracy, No improvement in Precision, Recall & F1 scores. 
 |KNN |Some improvement when SMOTE and hyperparameter fine tuning is carried out.  KNN showed high scores in Train Score, Test Score and Accuracy. Here a **BIG improvement** was noticed in Recall with drop in False Negative scores. Precision  & F1 score still seem to perform poorly with continued False Positive scores.|
 |SVC |SVC is very long time to build a model when compared to other methods with similar fine tuning parameters. There is SOME improvement when SMOTE and hyperparameter fine tuning is carried out.  SVC showed high scores in Train Score, Test Score and Accuracy and a **BIG improvement** was noticed in Recall with drop in False Negative scores. Precision  & F1 score still seem to perform poorly with continued False Positive scores|
-|Random Forest | Even after using SMOTE to adjust the Imbalanced Data, RandomForestClassifier did not do much better than other TWO classifiers (KNN & SVC) in terms of improving the performance of Precision. It was at about 50%. Though all the models show high scores in Train Score, Test Score, Accuracy and Recall, Precision & F1 score still seem to perform poorly 
-  |
+|Random Forest | Even after using SMOTE to adjust the Imbalanced Data, RandomForestClassifier did not do much better than other TWO classifiers (KNN & SVC) in terms of improving the performance of Precision. It was at about 50%. Though all the models show high scores in Train Score, Test Score, Accuracy and Recall, Precision & F1 score still seem to perform poorly|
+
 ---
 
 # Addressing Imbalance
@@ -420,6 +420,7 @@ As next steps going forward, I sugges that oncoming set of campaigns, the potent
 4. Explore offering better interest rates, when consumer confidence, consumer price index is high so the clients can save and get better returns.
 
 
+
 #### Reference & Links
 1. UC Irvine Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 2. Towards Data Science https://towardsdatascience.com/
@@ -427,4 +428,4 @@ As next steps going forward, I sugges that oncoming set of campaigns, the potent
 4. Data Visualization Catalog https://datavizcatalogue.com/methods/population_pyramid.html
 
 
-[Link to the Jupyter Notebook](https://github.com/Shashidhar-Sathya/campaign/blob/main/bank_of_portugal_direct_mktg.ipynb/)
+[Link to the Jupyter Notebook](https://github.com/Shashidhar-Sathya/bankdeposit/blob/master/bank_of_portugal_direct_mktg.ipynb/)
