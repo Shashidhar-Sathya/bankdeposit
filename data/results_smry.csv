@@ -1,0 +1,20 @@
+model,fit_time,accuracy,precision,recall,f1
+Baseline-Uniform,0.018,0.493,0.11,0.47,0.18
+LogisticRegression-Defaults,0.207,0.905,0.66,0.4,0.5
+knn-Defaults,0.874,0.898,0.59,0.44,0.5
+svc-Defaults,56.172,0.908,0.68,0.42,0.52
+decisiontreeclassifier-Defaults,0.287,0.887,0.52,0.52,0.52
+randomforest-Defaults,2.258,0.911,0.67,0.48,0.56
+logisticregression-Fine tuned,1.786,0.905,0.66,0.4,0.5
+knn-Fine tuned,2.403,0.898,0.59,0.44,0.5
+svc-Fine tuned,338.648,0.908,0.68,0.42,0.52
+decisiontreeclassifier-Fine tuned,1.319,0.911,0.64,0.56,0.6
+LogReg-Imbalance Fine Tuned,217.718,0.861,0.45,0.87,0.6
+KNN-Imbalance Fine Tuned,40.836,0.849,0.42,0.8,0.55
+SVC-Imbalance Fine Tuned,1484.161,0.864,0.46,0.87,0.6
+RandomForest-Imbalance Fine Tuned,534.054,0.873,0.48,0.85,0.61
+RF-Under-sampled-Fine Tuned,44.418,0.884,0.85,0.93,0.89
+logisticregression_undersampled-Fine tuned,0.56,0.869,0.85,0.88,0.87
+knn_undersampled-Fine tuned,0.396,0.839,0.83,0.85,0.84
+svc_undersampled-Fine tuned,26.69,0.878,0.84,0.93,0.88
+decisiontreeclassifier_undersampled-Fine tuned,0.37,0.879,0.85,0.92,0.88
